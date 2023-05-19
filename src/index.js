@@ -1,5 +1,9 @@
 import "./style.css";
+import { createProject } from "./createProject";
 
-const title = document.createElement("h1");
-title.textContent = "asdf";
-document.body.appendChild(title);
+const formAddProject = document.querySelector(".add-project");
+
+formAddProject.addEventListener("submit", (e) => {
+  e.preventDefault();
+  createProject();
+});
