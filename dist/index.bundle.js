@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.container {\r\n  height: 100%;\r\n  display: flex;\r\n}\r\n\r\nheader {\r\n  background-color: bisque;\r\n  height: 10%;\r\n}\r\n\r\n.side {\r\n  background-color: aqua;\r\n  height: 100%;\r\n  width: 25%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: baseline;\r\n}\r\n\r\n.todo-list {\r\n  width: 75%;\r\n}\r\n\r\n.projects {\r\n  background-color: rgb(233, 231, 231);\r\n  width: 100%;\r\n  height: 40%;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;;EAEE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,wBAAwB;EACxB,WAAW;AACb;;AAEA;EACE,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,yBAAyB;AAC3B;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,oCAAoC;EACpC,WAAW;EACX,WAAW;AACb","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.container {\r\n  height: 100%;\r\n  display: flex;\r\n}\r\n\r\nheader {\r\n  background-color: bisque;\r\n  height: 10%;\r\n}\r\n\r\n.side {\r\n  background-color: aqua;\r\n  height: 100%;\r\n  width: 25%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: baseline;\r\n}\r\n\r\n.todo-list {\r\n  width: 75%;\r\n}\r\n\r\n.projects {\r\n  background-color: rgb(233, 231, 231);\r\n  width: 100%;\r\n  height: 40%;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.container {\r\n  height: 100%;\r\n  display: flex;\r\n}\r\n\r\nheader {\r\n  background-color: bisque;\r\n  height: 10%;\r\n}\r\n\r\n.side {\r\n  background-color: aqua;\r\n  height: 100%;\r\n  width: 25%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: baseline;\r\n}\r\n\r\n.todo-list {\r\n  width: 75%;\r\n}\r\n\r\n.projects {\r\n  background-color: rgb(233, 231, 231);\r\n  width: 100%;\r\n  height: 40%;\r\n  overflow: auto;\r\n}\r\n\r\n.project-element {\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;;EAEE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,wBAAwB;EACxB,WAAW;AACb;;AAEA;EACE,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,yBAAyB;AAC3B;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,oCAAoC;EACpC,WAAW;EACX,WAAW;EACX,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,6BAA6B;AAC/B","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.container {\r\n  height: 100%;\r\n  display: flex;\r\n}\r\n\r\nheader {\r\n  background-color: bisque;\r\n  height: 10%;\r\n}\r\n\r\n.side {\r\n  background-color: aqua;\r\n  height: 100%;\r\n  width: 25%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: baseline;\r\n}\r\n\r\n.todo-list {\r\n  width: 75%;\r\n}\r\n\r\n.projects {\r\n  background-color: rgb(233, 231, 231);\r\n  width: 100%;\r\n  height: 40%;\r\n  overflow: auto;\r\n}\r\n\r\n.project-element {\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -468,6 +468,34 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/addTodo.js":
+/*!************************!*\
+  !*** ./src/addTodo.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ addTodoToProject)
+/* harmony export */ });
+class Todo {
+  constructor(title, description, dueDate, priority) {
+    this.title = title;
+    this.description = description;
+    this.dueDate = dueDate;
+    this.priority = priority;
+  }
+}
+
+function addTodoToProject(project) {
+  const todo = new Todo("Hola", "Sisi", "20/07/2024", "High");
+
+  project.addTodo(todo);
+}
+
+
+/***/ }),
+
 /***/ "./src/createProject.js":
 /*!******************************!*\
   !*** ./src/createProject.js ***!
@@ -476,13 +504,25 @@ module.exports = styleTagTransform;
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   createProject: () => (/* binding */ createProject)
+/* harmony export */   createProject: () => (/* binding */ createProject),
+/* harmony export */   projectList: () => (/* binding */ projectList),
+/* harmony export */   renderProjects: () => (/* binding */ renderProjects)
 /* harmony export */ });
+/* harmony import */ var _addTodo_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addTodo.js */ "./src/addTodo.js");
+/* harmony import */ var _removeProject_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./removeProject.js */ "./src/removeProject.js");
+
+
+
 let projectList = [];
 
 class Project {
   constructor(name) {
     this.name = name;
+    this.todoList = [];
+  }
+
+  addTodo(todo) {
+    this.todoList.push(todo);
   }
 }
 
@@ -491,25 +531,74 @@ function pushProjects(project) {
 }
 
 function createProject() {
-  const list = document.createElement("ul");
-  const projectElem = document.createElement("li");
-  const projects = document.querySelector(".projects");
   const inputProjectName = document.querySelector("#pj-name-input").value;
 
-  list.textContent = inputProjectName;
-
-  list.appendChild(projectElem);
-  projects.appendChild(list);
-
   const project = new Project(inputProjectName);
-
   pushProjects(project);
+
+  renderProjects();
+  (0,_addTodo_js__WEBPACK_IMPORTED_MODULE_0__["default"])(project);
   console.table(projectList);
 }
 
-function renderProjects(project) {}
+function renderProjects() {
+  const projects = document.querySelector(".projects");
+
+  projects.innerHTML = "";
+
+  projectList.forEach((element, index) => {
+    const projectElement = document.createElement("div");
+    projectElement.classList.add("project-element");
+    projectElement.innerHTML = `
+      <div data-id="${index}">${element.name}</div>
+      <button data-id="${index}" class="btn-remove">del</button>
+    `;
+
+    const btnRemove = projectElement.querySelector(".btn-remove");
+
+    btnRemove.addEventListener("click", _removeProject_js__WEBPACK_IMPORTED_MODULE_1__["default"]);
+
+    projects.appendChild(projectElement);
+  });
+}
 
 
+
+
+/***/ }),
+
+/***/ "./src/removeProject.js":
+/*!******************************!*\
+  !*** ./src/removeProject.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ removeProject)
+/* harmony export */ });
+/* harmony import */ var _createProject_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createProject.js */ "./src/createProject.js");
+
+
+
+function removeProject(event) {
+  const dataId = event.target.getAttribute("data-id");
+  removeProjectFromId(dataId);
+  (0,_createProject_js__WEBPACK_IMPORTED_MODULE_0__.renderProjects)();
+}
+
+function removeProjectFromId(dataId) {
+  const index = _createProject_js__WEBPACK_IMPORTED_MODULE_0__.projectList.findIndex(
+    (element, index) => index === Number(dataId)
+  );
+
+  if (index === -1) {
+    alert("Project List Empty");
+  } else {
+    _createProject_js__WEBPACK_IMPORTED_MODULE_0__.projectList.splice(index, 1);
+  }
+  console.table(_createProject_js__WEBPACK_IMPORTED_MODULE_0__.projectList);
+}
 
 
 /***/ })
