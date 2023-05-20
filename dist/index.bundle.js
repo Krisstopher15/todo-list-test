@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.container {\r\n  height: 100%;\r\n  display: flex;\r\n}\r\n\r\nheader {\r\n  background-color: bisque;\r\n  height: 10%;\r\n}\r\n\r\n.side {\r\n  background-color: aqua;\r\n  height: 100%;\r\n  width: 25%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: baseline;\r\n}\r\n\r\n.todo-list {\r\n  width: 75%;\r\n}\r\n\r\n.projects {\r\n  background-color: rgb(233, 231, 231);\r\n  width: 100%;\r\n  height: 40%;\r\n  overflow: auto;\r\n}\r\n\r\n.project-element {\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;;EAEE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,wBAAwB;EACxB,WAAW;AACb;;AAEA;EACE,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,yBAAyB;AAC3B;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,oCAAoC;EACpC,WAAW;EACX,WAAW;EACX,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,6BAA6B;AAC/B","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.container {\r\n  height: 100%;\r\n  display: flex;\r\n}\r\n\r\nheader {\r\n  background-color: bisque;\r\n  height: 10%;\r\n}\r\n\r\n.side {\r\n  background-color: aqua;\r\n  height: 100%;\r\n  width: 25%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: baseline;\r\n}\r\n\r\n.todo-list {\r\n  width: 75%;\r\n}\r\n\r\n.projects {\r\n  background-color: rgb(233, 231, 231);\r\n  width: 100%;\r\n  height: 40%;\r\n  overflow: auto;\r\n}\r\n\r\n.project-element {\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.container {\r\n  height: 100%;\r\n  display: flex;\r\n}\r\n\r\nheader {\r\n  background-color: bisque;\r\n  height: 10%;\r\n}\r\n\r\n.side {\r\n  background-color: aqua;\r\n  height: 100%;\r\n  width: 25%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: baseline;\r\n}\r\n\r\n.todo-list {\r\n  width: 75%;\r\n}\r\n\r\n.projects {\r\n  background-color: rgb(233, 231, 231);\r\n  width: 100%;\r\n  height: 40%;\r\n  overflow: auto;\r\n}\r\n\r\n.project-element {\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n.project-element-name:hover {\r\n  opacity: 0.5;\r\n}\r\n\r\n.project-info {\r\n  display: flex;\r\n  background-color: aquamarine;\r\n  width: 100%;\r\n  height: 8%;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;;EAEE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,wBAAwB;EACxB,WAAW;AACb;;AAEA;EACE,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,yBAAyB;AAC3B;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,oCAAoC;EACpC,WAAW;EACX,WAAW;EACX,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,6BAA6B;AAC/B;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,aAAa;EACb,4BAA4B;EAC5B,WAAW;EACX,UAAU;EACV,8BAA8B;EAC9B,mBAAmB;AACrB","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.container {\r\n  height: 100%;\r\n  display: flex;\r\n}\r\n\r\nheader {\r\n  background-color: bisque;\r\n  height: 10%;\r\n}\r\n\r\n.side {\r\n  background-color: aqua;\r\n  height: 100%;\r\n  width: 25%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: baseline;\r\n}\r\n\r\n.todo-list {\r\n  width: 75%;\r\n}\r\n\r\n.projects {\r\n  background-color: rgb(233, 231, 231);\r\n  width: 100%;\r\n  height: 40%;\r\n  overflow: auto;\r\n}\r\n\r\n.project-element {\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n.project-element-name:hover {\r\n  opacity: 0.5;\r\n}\r\n\r\n.project-info {\r\n  display: flex;\r\n  background-color: aquamarine;\r\n  width: 100%;\r\n  height: 8%;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -478,6 +478,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ addTodoToProject)
 /* harmony export */ });
+/* harmony import */ var _createProject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createProject */ "./src/createProject.js");
+
+
 class Todo {
   constructor(title, description, dueDate, priority) {
     this.title = title;
@@ -510,14 +513,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _addTodo_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addTodo.js */ "./src/addTodo.js");
 /* harmony import */ var _removeProject_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./removeProject.js */ "./src/removeProject.js");
+/* harmony import */ var _renderTodos_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./renderTodos.js */ "./src/renderTodos.js");
+
 
 
 
 let projectList = [];
+let id = 0;
 
 class Project {
-  constructor(name) {
+  constructor(id, name) {
     this.name = name;
+    this.id = id;
     this.todoList = [];
   }
 
@@ -533,9 +540,10 @@ function pushProjects(project) {
 function createProject() {
   const inputProjectName = document.querySelector("#pj-name-input").value;
 
-  const project = new Project(inputProjectName);
+  const project = new Project(id, inputProjectName);
   pushProjects(project);
 
+  id++;
   renderProjects();
   (0,_addTodo_js__WEBPACK_IMPORTED_MODULE_0__["default"])(project);
   console.table(projectList);
@@ -550,12 +558,14 @@ function renderProjects() {
     const projectElement = document.createElement("div");
     projectElement.classList.add("project-element");
     projectElement.innerHTML = `
-      <div data-id="${index}">${element.name}</div>
+      <p data-id="${index}" class="project-element-name">${element.name}</p>
       <button data-id="${index}" class="btn-remove">del</button>
     `;
 
     const btnRemove = projectElement.querySelector(".btn-remove");
+    const projectName = projectElement.querySelector(".project-element-name");
 
+    projectName.addEventListener("click", _renderTodos_js__WEBPACK_IMPORTED_MODULE_2__.findProject);
     btnRemove.addEventListener("click", _removeProject_js__WEBPACK_IMPORTED_MODULE_1__["default"]);
 
     projects.appendChild(projectElement);
@@ -599,6 +609,57 @@ function removeProjectFromId(dataId) {
   }
   console.table(_createProject_js__WEBPACK_IMPORTED_MODULE_0__.projectList);
 }
+
+
+/***/ }),
+
+/***/ "./src/renderTodos.js":
+/*!****************************!*\
+  !*** ./src/renderTodos.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   findProject: () => (/* binding */ findProject),
+/* harmony export */   renderTodos: () => (/* binding */ renderTodos)
+/* harmony export */ });
+/* harmony import */ var _createProject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createProject */ "./src/createProject.js");
+
+
+function renderTodos(dataId) {
+  const todoList = document.querySelector(".todo-list");
+  const todos = _createProject__WEBPACK_IMPORTED_MODULE_0__.projectList[dataId].todoList;
+
+  todoList.innerHTML = "";
+
+  todos.forEach((todo) => {
+    const todoElement = document.createElement("div");
+    const projectInfo = document.createElement("div");
+    todoElement.classList.add("todo");
+    projectInfo.classList.add("project-info");
+
+    projectInfo.innerHTML = `
+      <p>${_createProject__WEBPACK_IMPORTED_MODULE_0__.projectList[dataId].name}</p>
+      <button class="btn-addTask">ADD TASK</button>
+    `;
+    todoElement.innerHTML = `
+        <p>${todo.title}</p> 
+    `;
+
+    todoList.appendChild(projectInfo);
+    todoList.appendChild(todoElement);
+  });
+
+  console.log(_createProject__WEBPACK_IMPORTED_MODULE_0__.projectList[dataId].todoList);
+}
+
+function findProject(event) {
+  const dataId = event.target.getAttribute("data-id");
+  renderTodos(dataId);
+}
+
+
 
 
 /***/ })

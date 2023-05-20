@@ -1,11 +1,14 @@
 import addTodoToProject from "./addTodo.js";
 import removeProject from "./removeProject.js";
+import { renderTodos, findProject } from "./renderTodos.js";
 
 let projectList = [];
+let id = 0;
 
 class Project {
-  constructor(name) {
+  constructor(id, name) {
     this.name = name;
+    this.id = id;
     this.todoList = [];
   }
 
@@ -21,9 +24,10 @@ function pushProjects(project) {
 function createProject() {
   const inputProjectName = document.querySelector("#pj-name-input").value;
 
-  const project = new Project(inputProjectName);
+  const project = new Project(id, inputProjectName);
   pushProjects(project);
 
+  id++;
   renderProjects();
   addTodoToProject(project);
   console.table(projectList);
@@ -38,12 +42,14 @@ function renderProjects() {
     const projectElement = document.createElement("div");
     projectElement.classList.add("project-element");
     projectElement.innerHTML = `
-      <div data-id="${index}">${element.name}</div>
+      <p data-id="${index}" class="project-element-name">${element.name}</p>
       <button data-id="${index}" class="btn-remove">del</button>
     `;
 
     const btnRemove = projectElement.querySelector(".btn-remove");
+    const projectName = projectElement.querySelector(".project-element-name");
 
+    projectName.addEventListener("click", findProject);
     btnRemove.addEventListener("click", removeProject);
 
     projects.appendChild(projectElement);
