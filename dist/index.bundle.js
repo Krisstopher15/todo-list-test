@@ -21,7 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.container {\r\n  height: 100%;\r\n  display: flex;\r\n}\r\n\r\nheader {\r\n  background-color: bisque;\r\n  height: 10%;\r\n}\r\n\r\n.side {\r\n  background-color: aqua;\r\n  height: 100%;\r\n  width: 25%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: baseline;\r\n}\r\n\r\n.todo-list {\r\n  width: 75%;\r\n}\r\n\r\n.projects {\r\n  background-color: rgb(233, 231, 231);\r\n  width: 100%;\r\n  height: 40%;\r\n  overflow: auto;\r\n}\r\n\r\n.project-element {\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n.project-element-name:hover {\r\n  opacity: 0.5;\r\n}\r\n\r\n.project-info {\r\n  display: flex;\r\n  background-color: aquamarine;\r\n  width: 100%;\r\n  height: 8%;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;;EAEE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,wBAAwB;EACxB,WAAW;AACb;;AAEA;EACE,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,yBAAyB;AAC3B;;AAEA;EACE,UAAU;AACZ;;AAEA;EACE,oCAAoC;EACpC,WAAW;EACX,WAAW;EACX,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,6BAA6B;AAC/B;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,aAAa;EACb,4BAA4B;EAC5B,WAAW;EACX,UAAU;EACV,8BAA8B;EAC9B,mBAAmB;AACrB","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.container {\r\n  height: 100%;\r\n  display: flex;\r\n}\r\n\r\nheader {\r\n  background-color: bisque;\r\n  height: 10%;\r\n}\r\n\r\n.side {\r\n  background-color: aqua;\r\n  height: 100%;\r\n  width: 25%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: baseline;\r\n}\r\n\r\n.todo-list {\r\n  width: 75%;\r\n}\r\n\r\n.projects {\r\n  background-color: rgb(233, 231, 231);\r\n  width: 100%;\r\n  height: 40%;\r\n  overflow: auto;\r\n}\r\n\r\n.project-element {\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n.project-element-name:hover {\r\n  opacity: 0.5;\r\n}\r\n\r\n.project-info {\r\n  display: flex;\r\n  background-color: aquamarine;\r\n  width: 100%;\r\n  height: 8%;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.container {\r\n  height: 100%;\r\n  display: flex;\r\n}\r\n\r\nheader {\r\n  background-color: bisque;\r\n  height: 10%;\r\n}\r\n\r\n.side {\r\n  background-color: aqua;\r\n  height: 100%;\r\n  width: 25%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: baseline;\r\n}\r\n\r\n.todo-list {\r\n  width: 75%;\r\n  position: relative;\r\n}\r\n\r\n.projects {\r\n  background-color: rgb(233, 231, 231);\r\n  width: 100%;\r\n  height: 40%;\r\n  overflow: auto;\r\n}\r\n\r\n.project-element {\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n.project-element-name:hover {\r\n  opacity: 0.5;\r\n}\r\n\r\n.project-info {\r\n  display: flex;\r\n  background-color: aquamarine;\r\n  width: 100%;\r\n  height: 8%;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n\r\n.todo-form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  position: absolute;\r\n  width: 50%;\r\n  height: 50%;\r\n  background-color: bisque;\r\n  left: 50%;\r\n  top: 50%;\r\n  transform: translate(-50%, -50%);\r\n  gap: 1rem;\r\n}\r\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,sBAAsB;AACxB;;AAEA;;EAEE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,YAAY;EACZ,aAAa;AACf;;AAEA;EACE,wBAAwB;EACxB,WAAW;AACb;;AAEA;EACE,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,aAAa;EACb,sBAAsB;EACtB,mBAAmB;EACnB,yBAAyB;AAC3B;;AAEA;EACE,UAAU;EACV,kBAAkB;AACpB;;AAEA;EACE,oCAAoC;EACpC,WAAW;EACX,WAAW;EACX,cAAc;AAChB;;AAEA;EACE,aAAa;EACb,6BAA6B;AAC/B;;AAEA;EACE,YAAY;AACd;;AAEA;EACE,aAAa;EACb,4BAA4B;EAC5B,WAAW;EACX,UAAU;EACV,8BAA8B;EAC9B,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,kBAAkB;EAClB,UAAU;EACV,WAAW;EACX,wBAAwB;EACxB,SAAS;EACT,QAAQ;EACR,gCAAgC;EAChC,SAAS;AACX","sourcesContent":["* {\r\n  margin: 0;\r\n  padding: 0;\r\n  box-sizing: border-box;\r\n}\r\n\r\nhtml,\r\nbody {\r\n  width: 100%;\r\n  height: 100%;\r\n}\r\n\r\n.container {\r\n  height: 100%;\r\n  display: flex;\r\n}\r\n\r\nheader {\r\n  background-color: bisque;\r\n  height: 10%;\r\n}\r\n\r\n.side {\r\n  background-color: aqua;\r\n  height: 100%;\r\n  width: 25%;\r\n  display: flex;\r\n  flex-direction: column;\r\n  align-items: center;\r\n  justify-content: baseline;\r\n}\r\n\r\n.todo-list {\r\n  width: 75%;\r\n  position: relative;\r\n}\r\n\r\n.projects {\r\n  background-color: rgb(233, 231, 231);\r\n  width: 100%;\r\n  height: 40%;\r\n  overflow: auto;\r\n}\r\n\r\n.project-element {\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n.project-element-name:hover {\r\n  opacity: 0.5;\r\n}\r\n\r\n.project-info {\r\n  display: flex;\r\n  background-color: aquamarine;\r\n  width: 100%;\r\n  height: 8%;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n}\r\n\r\n.todo-form {\r\n  display: flex;\r\n  flex-direction: column;\r\n  position: absolute;\r\n  width: 50%;\r\n  height: 50%;\r\n  background-color: bisque;\r\n  left: 50%;\r\n  top: 50%;\r\n  transform: translate(-50%, -50%);\r\n  gap: 1rem;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -468,37 +468,6 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
-/***/ "./src/addTodo.js":
-/*!************************!*\
-  !*** ./src/addTodo.js ***!
-  \************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ addTodoToProject)
-/* harmony export */ });
-/* harmony import */ var _createProject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createProject */ "./src/createProject.js");
-
-
-class Todo {
-  constructor(title, description, dueDate, priority) {
-    this.title = title;
-    this.description = description;
-    this.dueDate = dueDate;
-    this.priority = priority;
-  }
-}
-
-function addTodoToProject(project) {
-  const todo = new Todo("Hola", "Sisi", "20/07/2024", "High");
-
-  project.addTodo(todo);
-}
-
-
-/***/ }),
-
 /***/ "./src/createProject.js":
 /*!******************************!*\
   !*** ./src/createProject.js ***!
@@ -511,7 +480,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   projectList: () => (/* binding */ projectList),
 /* harmony export */   renderProjects: () => (/* binding */ renderProjects)
 /* harmony export */ });
-/* harmony import */ var _addTodo_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addTodo.js */ "./src/addTodo.js");
+/* harmony import */ var _todoForm_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./todoForm.js */ "./src/todoForm.js");
 /* harmony import */ var _removeProject_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./removeProject.js */ "./src/removeProject.js");
 /* harmony import */ var _renderTodos_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./renderTodos.js */ "./src/renderTodos.js");
 
@@ -545,7 +514,7 @@ function createProject() {
 
   id++;
   renderProjects();
-  (0,_addTodo_js__WEBPACK_IMPORTED_MODULE_0__["default"])(project);
+  (0,_todoForm_js__WEBPACK_IMPORTED_MODULE_0__["default"])(project);
   console.table(projectList);
 }
 
@@ -607,7 +576,6 @@ function removeProjectFromId(dataId) {
   } else {
     _createProject_js__WEBPACK_IMPORTED_MODULE_0__.projectList.splice(index, 1);
   }
-  console.table(_createProject_js__WEBPACK_IMPORTED_MODULE_0__.projectList);
 }
 
 
@@ -625,6 +593,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   renderTodos: () => (/* binding */ renderTodos)
 /* harmony export */ });
 /* harmony import */ var _createProject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createProject */ "./src/createProject.js");
+/* harmony import */ var _todoForm_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./todoForm.js */ "./src/todoForm.js");
+
 
 
 function renderTodos(dataId) {
@@ -641,22 +611,83 @@ function renderTodos(dataId) {
 
     projectInfo.innerHTML = `
       <p>${_createProject__WEBPACK_IMPORTED_MODULE_0__.projectList[dataId].name}</p>
-      <button class="btn-addTask">ADD TASK</button>
+      <button data-id="${dataId}" class="btn-addTask">ADD TASK</button>
     `;
     todoElement.innerHTML = `
         <p>${todo.title}</p> 
+        <p>${todo.description}</p>
     `;
 
     todoList.appendChild(projectInfo);
     todoList.appendChild(todoElement);
-  });
 
-  console.log(_createProject__WEBPACK_IMPORTED_MODULE_0__.projectList[dataId].todoList);
+    const btnAddTask = projectInfo.querySelector(".btn-addTask");
+
+    btnAddTask.addEventListener("click", _todoForm_js__WEBPACK_IMPORTED_MODULE_1__.todoForm);
+  });
 }
 
 function findProject(event) {
   const dataId = event.target.getAttribute("data-id");
   renderTodos(dataId);
+}
+
+
+
+
+/***/ }),
+
+/***/ "./src/todoForm.js":
+/*!*************************!*\
+  !*** ./src/todoForm.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ addTodoToProject),
+/* harmony export */   todoForm: () => (/* binding */ todoForm)
+/* harmony export */ });
+/* harmony import */ var _createProject__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./createProject */ "./src/createProject.js");
+
+
+class Todo {
+  constructor(title, description, dueDate, priority) {
+    this.title = title;
+    this.description = description;
+    this.dueDate = dueDate;
+    this.priority = priority;
+  }
+}
+
+function todoForm() {
+  const currentProject = event.target.getAttribute("data-id");
+  const todoList = document.querySelector(".todo-list");
+  const form = document.createElement("form");
+  form.classList.add("todo-form");
+
+  form.innerHTML = `
+    <label for="title">title</label>
+    <input type="text" name="title" id="title" />
+    <label for="description">Description</label>
+    <input type="text" name="description" id="description" />
+    <label for="date">Date</label>
+    <input type="date" name="date" id="date" />
+    <button type="submit">Accept</button>
+  `;
+  todoList.appendChild(form);
+
+  const title = form.querySelector("#title").value;
+  const description = form.querySelector("#description").value;
+  const date = form.querySelector("#date");
+  //   addTodoToProject(title, description, "Hi");
+  console.log(currentProject);
+}
+
+function addTodoToProject(project) {
+  const todo = new Todo("Hola", "Sisi", "20/07/2024", "High");
+
+  project.addTodo(todo);
 }
 
 

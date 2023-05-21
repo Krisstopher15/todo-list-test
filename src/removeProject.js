@@ -17,5 +17,4 @@ function removeProjectFromId(dataId) {
   } else {
     projectList.splice(index, 1);
   }
-  console.table(projectList);
 }

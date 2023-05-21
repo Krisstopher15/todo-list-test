@@ -1,4 +1,5 @@
 import { projectList } from "./createProject";
+import { todoForm } from "./todoForm.js";
 
 function renderTodos(dataId) {
   const todoList = document.querySelector(".todo-list");
@@ -14,17 +15,20 @@ function renderTodos(dataId) {
 
     projectInfo.innerHTML = `
       <p>${projectList[dataId].name}</p>
-      <button class="btn-addTask">ADD TASK</button>
+      <button data-id="${dataId}" class="btn-addTask">ADD TASK</button>
     `;
     todoElement.innerHTML = `
         <p>${todo.title}</p> 
+        <p>${todo.description}</p>
     `;
 
     todoList.appendChild(projectInfo);
     todoList.appendChild(todoElement);
-  });
 
-  console.log(projectList[dataId].todoList);
+    const btnAddTask = projectInfo.querySelector(".btn-addTask");
+
+    btnAddTask.addEventListener("click", todoForm);
+  });
 }
 
 function findProject(event) {
